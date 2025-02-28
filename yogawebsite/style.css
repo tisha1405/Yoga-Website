@@ -1,0 +1,751 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+:root{
+    --primary-font:"Josefin Sans", sans-serif;
+    --secondary-font:"Open Sans", sans-serif;
+    --tertiary-font:'Roboto Slab', serif;
+    --heading-color:rgb(123, 108, 213);
+    --font-color1:rgb(85, 85, 85);
+    --font-color2:rgb(254,134,212);
+    --font-color3:white;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:16px;
+    /*border:1px solid red; */ 
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+img{    
+   object-fit: cover;
+}
+.main{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.568),rgba(0, 0, 0, 0.527)),url(./images/yoga-header.jpg);
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    height:825px;
+    width:100%;
+}
+.icon1 img,
+.icon3 img{
+    height:28px;
+    width:28px;
+}
+.icon2 img{
+    width:125px;
+}
+.details{
+    height:238px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    padding:26px 15px;
+    border-bottom: 1px solid white;
+}
+/*.details a{
+    color:white;
+    font: size 30px;
+    font-family:'Josefin Sans';
+    font-weight: 500;
+}*/
+.icon1 a{
+    font-size:18px;
+    font-family:var(--primary-font);
+    font-weight :400px;
+    letter-spacing: 0.18;
+    line-height: 30px;
+    color: white;
+}
+.icon3 a{
+    font-size: 17px;
+    font-family: var(--secondary-font);
+    letter-spacing:0.18px ;
+    font-weight :400px;
+    line-height: 30px;
+    color: white;
+}
+.heading1{
+    padding:126px 20px 10px;
+    text-align: center;
+}
+.heading1 h2{
+    font-size:40px;
+    color:white;
+    line-height:40px;
+    font-family:var(--primary-font);
+    font-weight:700;
+    padding-top:20px;
+    padding-left:30px;
+    padding-right:18px;
+}
+.heading1 p{  
+    color:white;
+    line-height: 25px;
+    letter-spacing:0.45px;
+    font-size:15px;
+    font-weight:400;
+    font-family:var(--secondary-font);
+    width:280px;
+    padding-top:18px;
+    padding-bottom:45px;
+}
+.btn1 a{
+
+    font-family: var(--primary-font);
+    font-size: 20px;
+    line-height:25px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    background-color: #fe86d4;
+    color:white;
+    text-transform:uppercase;
+    padding:20px 33px 18px;
+    border-radius: 3px;
+}
+.btn1{
+    text-align: center;
+}
+.main1 h2{
+    padding:62px 50px 2px;
+    font-family:var(--tertiary-font);
+    font-weight:700;
+    font-size:28px;
+    line-height:40px;
+    color:var(--heading-color);
+    text-align: center;
+}
+.main1 p{
+    font-family:var(--secondary-font);
+    font-weight:400;
+    font-size: 15px;
+    line-height: 40px;
+    color:rgb(102, 102, 102);
+    text-align: center;
+    padding:0 22px 0;
+    letter-spacing: 0.45px;
+}
+.parent1{
+    padding-top:30px;
+    text-align: center;
+}
+.parent1 svg{
+    width:90px;
+    height:65px;
+}
+.parent1 h3{
+    font-family:var(--primary-font);
+    font-size:25px;
+    font-weight:700;
+    line-height:40px;
+    color: black;
+    text-align: center;
+    padding-bottom:18px;
+}
+.parent1 p{
+    font-family: var(--secondary-font);
+    color:var(--font-color1);
+    font-size:15px;
+    font-weight: 400;
+    line-height:25px;
+    padding-bottom:40px;
+}
+.heading2 h2{
+    font-family:'Roboto Slab', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color:var(--heading-color);
+    line-height:40px;
+    padding:120px 0 8px;
+}
+.heading2 p{
+    font-family: var(--secondary-font);
+    color:var(--font-color1);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom:26px;
+}
+.parent2 li{
+    list-style-image: url(./illustrations/thunder.png);
+    list-style-position: inside;
+    font-family: var(--secondary-font);
+    font-size:15px;
+    line-height:40px;
+    font-weight:400;
+    color:var(--font-color1);
+    padding-bottom: 10px;
+}
+.parent2{
+    padding:0 15px 0;
+}
+.para1 p{
+    font-family: var(--secondary-font);
+    font-size:15px;
+    line-height:30px;
+    font-weight:400;
+    color:var(--font-color1);
+    padding-bottom:70px;
+}
+.empty{
+    background: white url(./images/the-best-class-yoga.jpg) center right/ cover no-repeat;
+    height:500px;
+    width:100%;
+}
+.main2{
+    background-image:linear-gradient(rgba(85, 85, 85, 0.726),rgba(85, 85, 85, 0.541)),url(./images/advantages-of-yoga.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    padding:60px 20px 60px;
+}
+.heading3 h2
+{
+    font-family:var(--tertiary-font);
+    font-weight:700;
+    font-size:28px;
+    line-height:40px;
+    color:var(--font-color2);
+    text-align:center;
+    letter-spacing:0.80px;
+}
+.heading3 p{
+    font-family:var(--secondary-font);
+    color:var(--font-color3);
+    font-size:15px;
+    font-weight:400;
+    line-height:40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.advantages{
+    text-align: center;
+}
+.advantages svg{
+    height:50px;
+    width:50px;
+}
+.advantages h3{
+    font-family:var(--primary-font);
+    color:var(--font-color2);
+    font-size:20px;
+    font-weight: 600;
+    line-height:25px;
+}
+.advantages p{
+    font-family: var(--secondary-font);
+    font-size:15px;
+    font-weight:400;
+    line-height:25px;
+    color:var(--font-color3);
+    letter-spacing: 0.45px;
+}
+.advantage1,
+.advantage2,.advantage3,.advantage4,.advantage5,.advantage6{
+    padding-bottom:20px;
+}
+.main3{
+    padding:60px 15px 60px;
+    text-align: center;
+}
+.heading4 h2{
+    font-family: var(--tertiary-font);
+    font-size:28px;
+    font-weight:700;
+    line-height:40px;
+    color:var(--heading-color);
+}
+.heading4 p{
+    font-family:var(--secondary-font);
+    font-size:15px;
+    font-weight:400;
+    line-height: 40px;
+    color:rgb(102,102,102);
+}
+.figure1 img,.figure2 img,
+.figure3 img,.figure4 img{
+    height:145px;
+    width:145px;
+    border-radius:50%;
+}
+.figure1,.figure2,
+.figure3,.figure4{
+  padding-top:40px;
+}
+.our-classes h3{
+    font-family:var(--primary-font);
+    color:var(--font-color2);
+    font-size:22px;
+    font-weight: 600;
+    line-height:40px;
+}
+
+.our-classes p{
+    font-family:var(--secondary-font);
+    font-size:15px;
+    font-weight:400;   
+    line-height:25px;
+    color:rgb(102,102,102);
+}
+.main4{
+    padding:60px 15px 60px;
+    text-align: center;
+}
+.heading5 h2,
+.heading6 h2{
+    font-family: var(--tertiary-font);
+    font-size:28px;
+    font-weight:700;
+    line-height:40px;
+    color:var(--heading-color);
+    text-align: center;
+}
+.heading5 p,
+.heading6 p{
+    font-family:var(--secondary-font);
+    font-size:15px;
+    font-weight:400;
+    line-height:40px;
+    color:rgb(102,102,102);
+    text-align: center;
+    padding-bottom: 30px;
+}
+.table{
+    border:1px solid black;
+    padding:30px 28px 25px;
+}
+
+.table h2{
+    font-family: var(--primary-font);
+    font-size:30px;
+    font-weight:600;
+    line-height:40px;
+    color:var(--heading-color);
+}
+.table p{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight:400;
+    line-height:20px;
+    color:rgb(136,136,136);
+    padding-bottom: 40px;
+}
+.firstname,.lastname,.date,.classes,
+.phone,.email,.messages{
+    margin-bottom: 10px;
+    border:1px solid #999;
+    color:rgb(73,80,87);
+    font-family: var(--secondary-font);
+    border-radius:4px;
+    font-size:12px;
+    width:220px;
+    padding:9px 16px 9px;
+}
+.btn2{
+    background-color: var(--heading-color);
+    color:white;
+    font-family: var(--primary-font);
+    font-size:20px;
+    font-weight:700;
+    line-height:25px;
+    padding:18px 10px 13px;
+    height:83px;
+    width:220px;
+    border: 1px solid #7b6cd5;
+    border-radius: 3px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+}
+.timings{
+    padding:60px 15px 60px;
+}
+.timings h3{
+    font-family:var(--primary-font);
+    color:var(--heading-color);
+    font-size:25px;
+    font-weight:600;
+    line-height:40px;
+}
+.time1,.time2,
+.time3,.time4{
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight:600;
+    line-height:40px;
+    color:rgb(68,68,68); 
+}
+.class1,.class2,
+.class3,.class4{
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    font-weight:400;
+    line-height:40px;
+    color:rgb(85,85,85); 
+}
+.weekends{
+    margin-top:40px;
+}
+.trainers{
+    padding:60px 15px 60px;
+    text-align: center;
+}
+.trainer1 img,.trainer2 img,
+.trainer3 img,.trainer4 img{
+    height:182px;
+    width:182px;
+    border-radius:50%;
+}
+
+.trainer1,.trainer2,
+.trainer3,.trainer4{
+    padding-bottom: 40px;
+}
+.all-trainers h3{
+    font-family: var(--primary-font);
+    color:rgb(85,85,85);
+    font-size:20px;
+    font-weight:600;
+    line-height:40px;
+}
+.all-trainers p{
+    font-family:var(--secondary-font);
+    font-size:15px;
+    font-weight:400;
+    line-height:40px;
+    color:rgb(102,102,102);
+    font-style: italic;
+    letter-spacing: 0.45px;
+}
+.footer1{
+    padding:55px 15px 55px;
+}
+.footer1 h2{
+    font-family: var(--tertiary-font);
+    font-size:28px;
+    font-weight:700;
+    line-height:40px;
+    color:var(--heading-color);
+    text-align: center; 
+    padding:0 15px 0;
+}
+.footer1 p{
+    font-family:var(--secondary-font);
+    font-size:15px;
+    font-weight:400;
+    line-height:40px;
+    color:rgb(102,102,102);
+    letter-spacing: 0.45px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.btn4{
+    height:62px;
+    width:250px;
+    border:1px solid rgb(123, 108, 213);
+    padding:21px 52px 19px;
+    background-color:var(--heading-color);
+    margin-bottom: 8px;
+    border-radius: 4px;
+    
+}
+.btn4 a{
+    font-family: var(--primary-font);
+    font-size:20px;
+    font-weight:700;
+    line-height:25px;
+    color:white; 
+    text-align: center;
+}
+.details2 a{
+    font-family: var(--secondary-font);
+    font-size:18px;
+    font-weight:600;
+    line-height:40px;
+    color:black;
+}
+.register{
+    display:flex;
+    justify-content: center;
+ 
+}
+.footer2{
+    width:315px;
+    height:178px;
+    background-color: var(--heading-color);
+    padding:50px 15px 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.footer2 p{
+    font-family: var(--secondary-font);
+    font-size:14px;
+    font-weight:400;
+    line-height:26px;
+    color:white;
+    text-align: center;
+    padding:0 15px 0;
+}
+.icons menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    column-gap:4px;
+}
+.icons img{
+    height:17px;
+    width:17px;
+}
+@media(min-width:768px)
+{
+    .main{
+        height:584px;
+    }
+
+    .details{
+        height:128px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .icon2{
+        order:1;
+    }
+    .icon3{
+        order:2;
+    }
+    .icon1,
+    .icon3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .heading1 h2{
+        padding-top:0;
+        padding-left:15px;
+    }
+    .heading1 p{
+        width:100%;
+    }
+    .our-classes h3{
+        color:#434343;
+    }
+    .footer2{
+        width:100%;
+        height:152px;
+        display: flex;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    .footer2 p{
+        width:400px;
+    }
+    .icons menu{
+        margin-right:20px;
+        padding-right:120px;
+    }
+    .table{
+        height:651px;
+    }
+    .firstname,.lastname,.date,.classes,
+    .phone,.email,.messages
+    {
+        display: flex;
+        width:100%;
+    }
+    .btn2{
+        width: 100%;
+        height:58px;
+        padding-bottom: 10px;
+    }
+}
+@media(min-width:992px)
+{
+    .main{
+        height:544px;
+    }
+    .details{
+        margin:0 26px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon1,.icon3{
+        margin:0 10px 0;
+        padding:0px 15px 0;
+    }
+    .icon1 a{
+        font-size: 18px;
+    }
+    .icon3 a{
+        font-size:18px;
+    }
+    .main1{
+        margin:26px;
+        padding:0 15px 10px;
+    }
+    .parent1{
+        display: flex;
+        justify-content: center;
+    }
+    .child1,.child2,.child3{
+        padding:0 15px;
+    }
+    .best-class{
+        height:593px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        column-gap: 80px;
+    }
+    .parent2{
+        height:470px;
+        margin-left:50px;
+
+    }
+    .heading2 h2{
+        padding:0;
+        margin-bottom: 20px;
+    }
+    .heading2 p{
+        padding-bottom:10px;
+        
+    }
+    .empty{
+        height:593px;
+        width:511px;
+        padding-top:30px;
+    }
+    .para1 p{
+        padding:12px 0 0;
+    }
+    .parent2 li{
+        padding-bottom: 0;
+    }
+    .heading2 p{
+        padding-bottom:15px;
+    }
+    .main2{
+        background-image:url(./images/advantages-of-yoga.jpg);
+    }
+    .heading3 h2{
+        color:var(--heading-color);
+    }
+    .heading3 p,.advantages p{
+        color:rgb(102,102,102);
+    }
+    .advantages h3{
+        color:#444444;
+    }
+    .advantages h3:hover{
+        color:var(--font-color1);
+    }
+    .main2{
+        height:1013px;
+    }
+    .advantages{
+        display: flex;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+    }
+    .first-three{
+        text-align:right;
+    }
+    .last-three{
+        width:190px;
+        text-align:left;
+    }
+    .advantage1{
+        width:190px;
+        margin-left:190px;
+    }
+    .advantage2{
+        margin-left:90px;
+        width:190px;
+    }
+    .advantage3{
+        width:190px;
+    }
+    .advantage4{
+        width:190px;
+        margin-left:-190px;
+    }
+    .advantage5{
+        width:190px;
+        margin-left:-90px;
+    }
+    .our-classes{
+        display:flex;
+        padding:60px 15px 0;
+        margin:0 12px;
+    }
+    .figure1,.figure2,.figure3,.figure4{
+        padding:0 15px 0;
+    }
+
+    .all-trainers{
+        display: flex;
+        justify-content: center;
+        margin:0 12px;
+    }
+    .trainer1,.trainer2,
+    .trainer3,.trainer4{
+        padding-right:50px;
+    }
+    .footer2{
+        height:126px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer2 p{
+        width:100%;
+    }
+    .icons menu{
+        padding:0;
+    }
+    .combination{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .table{
+        width:470px;
+        height:560px;
+        border:1px solid rgb(85,85,85);
+        margin-right: 10px;
+    }
+    .firstname,.lastname,.date,.classes,
+    .phone,.email{
+        width:200px;
+    }
+    .messages{
+        width:410px;
+    }
+    .wrapping{
+        display:flex;
+        flex-wrap:wrap;
+        column-gap:10px;
+    }
+    .timings{
+        width:470px;
+    }
+}
+
+    
+
+
+
+
